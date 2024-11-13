@@ -1,0 +1,191 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    color: rgb(86, 85, 85);
+}
+
+body {
+    height: 100vh;
+    background: linear-gradient(135deg, #b26ed4, #334ad4);
+}
+
+section {
+    width: 1170px;
+    height: 700px;
+    background-color: white;
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+    margin-top: 30px;
+}
+
+.photo {
+    width: 539px;
+}
+
+.other {
+    height: 700px;
+    width: 631px;
+    
+}
+
+.menu {
+    height: 30px;
+    display: flex;
+    justify-content: flex-end;
+    padding-right: 20px;
+    margin-top: 20px;
+}
+
+.menu img {
+    width: 15px;
+    height: 11px;
+    transition: opacity 0.2s ease;
+    position: absolute;
+}
+
+.menu img.second {
+    opacity: 0;
+}
+
+.menu:hover img.first {
+    opacity: 0;
+}
+
+.menu:hover img.second {
+    opacity: 1;
+}
+
+.content {
+    margin-top: 30px;
+    margin-left: 65px;
+    width: 500px;
+    height: 550px;
+    margin-bottom: 25px;
+}
+
+.content h2 {
+    font-family: Tahoma;
+    font-weight: 200;
+}
+
+.content p {
+    padding-top: 20px;
+    padding-bottom: 30px;
+}
+
+.title {
+    width: 500px;
+}
+
+.title p {
+    font-size: 18px;
+}
+
+.login {
+    font-size: 14px;
+    margin-bottom: 15px;
+}
+
+a {
+    color: #00aaff;
+    text-decoration: none;
+}
+
+a:hover {
+    color: #0077cc;
+}
+
+.block {
+    width: 500px;
+    display: flex;
+    margin-bottom: 10px;
+}
+
+.left {
+    width: 250px;
+}
+.left label {
+    display: block;
+    font-size: 14px;
+    font-weight: 600;
+    color: #333;
+    margin-bottom: 5px;
+}
+
+.left input {
+    width: 225px;
+    padding: 10px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+}
+
+.right {
+    width: 250px;
+}
+
+.right label {
+    display: block;
+    font-size: 14px;
+    font-weight: 600;
+    color: #333;
+    margin-bottom: 5px;
+}
+
+.right input {
+    width: 225px;
+    padding: 10px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+}
+
+.checkbox-group {
+    display: flex;
+    align-items: center;
+    margin-bottom: 15px;
+}
+
+.checkbox-group input {
+    margin-right: 10px;
+}
+
+.checkbox-group label {
+    font-size: 14px;
+    color: #666;
+}
+
+button {
+    width: 100px;
+    padding: 12px;
+    background-color: #00aaff;
+    color: #fff;
+    font-size: 16px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    margin-top: 10px;
+}
+
+button:hover {
+    background-color: #0077cc;
+}
+
+.end {
+    margin-top: 20px;
+}
+
+.language-selector {
+    display: flex;
+    justify-content: flex-end;
+    margin-right: 15px;
+    font-size: 14px;
+    color: #666;
+}
+
+.language-selector select {
+    width: 92px;
+    border: none;
+    font-size: 14px;
+    cursor: pointer;
+}
